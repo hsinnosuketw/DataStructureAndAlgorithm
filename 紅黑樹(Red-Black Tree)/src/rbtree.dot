@@ -1,0 +1,32 @@
+digraph RedBlackTree {
+    node [style=filled, fontcolor=white];
+    n10 [label="10", fillcolor=black];
+    n10 -> n5 [label="L"];
+    n10 -> n20 [label="R"];
+    n5 [label="5", fillcolor=black];
+    n5 -> n2 [label="L"];
+    nil5R [label="NIL", fillcolor=black, shape=box];
+    n5 -> nil5R [label="R"];
+    n20 [label="20", fillcolor=red];
+    n20 -> n15 [label="L"];
+    n20 -> n30 [label="R"];
+    n2 [label="2", fillcolor=red];
+    nil2L [label="NIL", fillcolor=black, shape=box];
+    n2 -> nil2L [label="L"];
+    nil2R [label="NIL", fillcolor=black, shape=box];
+    n2 -> nil2R [label="R"];
+    n15 [label="15", fillcolor=black];
+    nil15L [label="NIL", fillcolor=black, shape=box];
+    n15 -> nil15L [label="L"];
+    nil15R [label="NIL", fillcolor=black, shape=box];
+    n15 -> nil15R [label="R"];
+    n30 [label="30", fillcolor=black];
+    n30 -> n25 [label="L"];
+    nil30R [label="NIL", fillcolor=black, shape=box];
+    n30 -> nil30R [label="R"];
+    n25 [label="25", fillcolor=red];
+    nil25L [label="NIL", fillcolor=black, shape=box];
+    n25 -> nil25L [label="L"];
+    nil25R [label="NIL", fillcolor=black, shape=box];
+    n25 -> nil25R [label="R"];
+}
